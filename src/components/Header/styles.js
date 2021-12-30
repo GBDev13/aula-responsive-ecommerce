@@ -19,10 +19,6 @@ export const Container = styled.header`
 
     > img {
       width: 230px;
-
-      @media(max-width: 500px) {
-        width: 120px;
-      }
     }
 
     > nav {
@@ -51,15 +47,5 @@ export const Container = styled.header`
         }
       }
     }
-
-    @media(max-width: 900px) {
-      > nav {
-        display: none;
-      }
-    }
-  }
-
-  @media(max-width: 700px) {
-    padding: 14.5px 16px;
   }
 `;

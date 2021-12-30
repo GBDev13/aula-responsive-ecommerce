@@ -34,44 +34,6 @@ export const Container = styled.section`
       display: none;
     }
   }
-
-  @media(max-width: 1250px) {
-    flex-direction: column;
-
-    > section {
-      gap: 48px;
-      flex-direction: column;
-    }
-
-    > div {
-      margin-bottom: 80px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      
-      p {
-        max-width: 280px;
-        text-align: center;
-      }
-
-      br {
-        display: none;
-      }
-
-      .arrow-right {
-        display: none;
-      }
-
-      .arrow-down {
-        display: block;
-        margin-top: 16px;
-      }
-    }
-  }
-
-  @media(max-width: 700px) {
-    padding: 64px 16px;
-  }
 `;
 
 export const ProductContainer = styled.div`

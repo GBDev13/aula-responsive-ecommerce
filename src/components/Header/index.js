@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { Container } from "./styles";
 
-import logoImg from '../../assets/Logo.png';
+import logoImg from '../../assets/Logo.svg';
 
 import { FaSearch, FaShoppingBag } from 'react-icons/fa';
 import { RiMenu3Fill } from 'react-icons/ri';

@@ -24,23 +24,6 @@ export const Container = styled.div`
     justify-content: space-between;
     gap: 16px;
   }
-
-  @media(max-width: 1000px) {
-    height: auto;
-
-    > section {
-      gap: 60px;
-      flex-direction: column;
-    }
-  }
-
-  @media(max-width: 700px) {
-    > section {
-      padding: 64px 16px;
-      padding-bottom: 40px;
-      gap: 40px;
-    }
-  }
 `;
 
 export const HeroContent = styled.div`
@@ -97,36 +80,6 @@ export const HeroContent = styled.div`
         background: none;
         border: 1px solid #2E332E;
       }
-    }
-  }
-
-  @media(max-width: 1360px) {
-    max-width: 500px;
-  }
-
-  @media(max-width: 1000px) {
-    max-width: 100%;
-
-    > div {
-      margin-right: 0px;
-    }
-  }
-
-  @media(max-width: 700px) {
-    > strong {
-      font-size: 20px;
-    }
-
-    > h1 {
-      font-size: 32px;
-    }
-
-    > p {
-      font-size: 14px;
-    }
-
-    > div {
-      grid-template-columns: 1fr;
     }
   }
 `;
@@ -191,29 +144,6 @@ export const HeadsetsContainer = styled.div`
       height: 24px;
     }
   }
-
-  @media(max-width: 700px) {
-    height: 340px;
-    gap: 0px;
-    justify-content: space-around;
-
-    > section {
-
-      > img {
-        width: 100px;
-        margin-top: auto;
-      }
-    }
-
-    > div {
-      gap: 8px;
-
-      > svg {
-        width: 20px;
-        height: 20px;
-      }
-    }
-  }
 `;
 
 export const HeadsetItemContainer = styled.div`
@@ -231,16 +161,6 @@ export const HeadsetItemContainer = styled.div`
     height: 50px;
     object-fit: contain
   }
-
-  @media(max-width: 700px) {
-    width: 60px;
-    height: 60px;
-
-    > img {
-      width: 30px;
-      height: 30px;
-    }
-  }
 `;
 
 export const SocialContainer = styled.section`
@@ -256,14 +176,5 @@ export const SocialContainer = styled.section`
     &:hover {
       color: #2FDA2B;
     }
-  }
-
-  @media(max-width: 1000px) {
-    justify-content: center;
-    margin-top: 60px;
-  }
-
-  @media(max-width: 700px) {
-    margin-top: 0px;
   }
 `;
