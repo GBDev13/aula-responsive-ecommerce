@@ -39,8 +39,7 @@ export const Container = styled.section`
     flex-direction: column;
 
     > section {
-      gap: 48px;
-      flex-direction: column;
+      gap: 60px
     }
 
     > div {
@@ -66,6 +65,13 @@ export const Container = styled.section`
         display: block;
         margin-top: 16px;
       }
+    }
+  }
+
+  @media(max-width: 850px) {
+    > section {
+      gap: 48px;
+      flex-direction: column;
     }
   }
 
