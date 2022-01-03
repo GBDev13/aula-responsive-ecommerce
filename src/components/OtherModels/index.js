@@ -21,7 +21,7 @@ export function OtherModels() {
           <h2>Outros modelos</h2>
           <FiArrowRight className="arrow-right"/>
         </div>
-        <p>Esses são os outros modelos<br /> incriveis da nossa marca ...</p>
+        <p>Esses são os outros modelos<br /> incríveis da nossa marca ...</p>
         <FiArrowDown className="arrow-down"/>
       </div>
       <section>
