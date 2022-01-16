@@ -6,7 +6,7 @@ import logoImg from '../../assets/Logo.png';
 import { FaSearch, FaShoppingBag } from 'react-icons/fa';
 import { RiMenu3Fill } from 'react-icons/ri';
 
-export function Header() {
+export function Header({ setMenuIsVisible }) {
   return (
     <Container>
       <section>
@@ -22,7 +22,7 @@ export function Header() {
       <section>
         <FaSearch />
         <FaShoppingBag />
-        <RiMenu3Fill />
+        <RiMenu3Fill onClick={() => setMenuIsVisible(true)} />
       </section>
     </Container>
   )
