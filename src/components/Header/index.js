@@ -22,7 +22,7 @@ export function Header({ setMenuIsVisible }) {
       <section>
         <FaSearch />
         <FaShoppingBag />
-        <RiMenu3Fill onClick={() => setMenuIsVisible(true)} />
+        <RiMenu3Fill onClick={() => setMenuIsVisible(true)} className="mobile"/>
       </section>
     </Container>
   )
