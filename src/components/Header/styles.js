@@ -51,8 +51,14 @@ export const Container = styled.header`
         }
       }
     }
+    .mobile {
+      display: none;
+    }
 
     @media(max-width: 900px) {
+      .mobile {
+        display: initial;
+      }
       > nav {
         display: none;
       }

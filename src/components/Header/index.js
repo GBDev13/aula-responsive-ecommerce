@@ -22,7 +22,7 @@ export function Header() {
       <section>
         <FaSearch />
         <FaShoppingBag />
-        <RiMenu3Fill />
+        <RiMenu3Fill className="mobile"/>
       </section>
     </Container>
   )
